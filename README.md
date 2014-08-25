@@ -20,8 +20,8 @@ multiple devices of the user along with centralized logging.
 - Customize ``waartaa/app/server/settings-local.js`` as needed.
   - disable elasticsearch (set to ``false``) if its not setup.
 - Go to waartaa meteor project's directory: ``$ cd app``
-- update the app ``mrt update && meteor update``
-- Add kadira to meteor ``mrt add kadira``
+- update the app ``$ mrt update && meteor update``
+- Add kadira to meteor ``$ mrt add kadira``
 - Run waartaa: ``$ meteor``
 - If you get a "blaze" error, run ``$ mrt uninstall blaze`` and re run the above step.
 
