@@ -7,7 +7,7 @@ multiple devices of the user along with centralized logging.
 ## Setup
 
 - Install system dependencies: ``node``, ``npm`` for your system. For example:
-    - For Fedora, you can do: ``$ sudo yum install nodejs npm -y``
+    - For Fedora, you can do: ``$ sudo yum install nodejs npm bzip2 -y``
     - For Mac OS X, you can install them via brew: ``$ brew install node npm``
     - For Debian/Ubuntu install only node.js and it will include npm as: 
                                            ``sudo add-apt-repository ppa:chris-lea/node.js
